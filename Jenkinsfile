@@ -1,6 +1,6 @@
 pipeline {
   agent { label 'linux' }
-  toolls { 
+  tools { 
     maven 'M3'
   }
   stages {
